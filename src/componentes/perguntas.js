@@ -34,6 +34,10 @@ function FAQSection() {
         marginLeft: '10px',
     };
 
+    const answerStyle = {
+        marginTop: '10px', // Adicionando espaço entre a pergunta e a resposta
+    };
+
     const questionsAndAnswers = [
         {
             question: 'Ainda vale a pena vender ebook?',
@@ -66,7 +70,7 @@ function FAQSection() {
                         <h3>{item.question}</h3>
                         {selectedQuestion === index ? <FaChevronUp style={iconStyle} /> : <FaChevronDown style={iconStyle} />}
                     </div>
-                    {selectedQuestion === index && <p>{item.answer}</p>}
+                    {selectedQuestion === index && <p style={answerStyle}>{item.answer}</p>}
                 </div>
             ))}
         </div>

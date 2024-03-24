@@ -5,34 +5,35 @@ function Parte1() {
         backgroundColor: '#000000',
         color: '#00FF00',
         textAlign: 'center',
-        minHeight: '300px', // Definindo uma altura mínima para o container
-        padding: '20px', // Adicionando espaçamento interno
-        margin: '0 auto', // Centralizando o container horizontalmente
-        fontFamily: 'Arial, sans-serif', // Definindo uma fonte para todo o componente
+        padding: '20px',
+        margin: '0 auto',
+        fontFamily: 'Arial, sans-serif',
     };
 
     const innerDivStyle = {
-        maxWidth: '900px', // Definindo a largura máxima da nova div interna
-        width: '100%', // Garantindo que a nova div interna ocupe toda a largura disponível
-        margin: '0 auto', // Centralizando a nova div interna horizontalmente
+        maxWidth: '900px',
+        width: '100%',
+        margin: '0 auto',
     };
 
     const titleStyle = {
-        wordWrap: 'break-word', // Permitir que o texto quebre automaticamente
-        marginBottom: '20px', // Adicionando margem inferior para separar os textos
-        fontSize: '2em', // Ajustando o tamanho da fonte do título
-        fontWeight: 'bold', // Tornando a fonte do título em negrito
+        wordWrap: 'break-word',
+        marginBottom: '20px',
+        fontSize: '2em',
+        fontWeight: 'bold',
     };
 
     const subtitleStyle = {
-        color: '#FFFFFF', // Definindo a cor do texto como branco
-        fontSize: '1.4em', // Ajustando o tamanho da fonte do subtítulo
+        color: '#FFFFFF',
+        fontSize: '1.4em',
+        maxWidth: '800px',
+        margin: '0 auto',
     };
 
     const subtitlePromoStyle = {
-        color: '#000000', // Definindo a cor do texto como preto
-        fontSize: '1.5em', // Ajustando o tamanho da fonte do subtítulo
-        fontWeight: 'bold', // Tornando a fonte do subtítulo em negrito
+        color: '#000000',
+        fontSize: '1.5em',
+        fontWeight: 'bold',
     };
 
     const cardStyle = {
@@ -40,26 +41,26 @@ function Parte1() {
         padding: '20px',
         borderRadius: '10px',
         boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-        maxWidth: '400px', // Definindo a largura máxima do card
-        width: '100%', // Garantindo que o card ocupe toda a largura disponível
-        margin: '0 auto', // Centralizando o card horizontalmente
+        maxWidth: '400px',
+        width: '90%',
+        margin: '20px auto',
     };
 
     const promoStyle = {
-        backgroundColor: '#FFD700', // Definindo a cor de fundo da promoção
-        padding: '10px', // Adicionando espaçamento interno
-        borderRadius: '5px', // Adicionando bordas arredondadas
-        marginBottom: '20px', // Adicionando margem inferior para separar do próximo item
-        cursor: 'pointer', // Alterando o cursor para indicar que é clicável
+        backgroundColor: '#FFD700',
+        padding: '10px',
+        borderRadius: '5px',
+        marginBottom: '20px',
+        cursor: 'pointer',
     };
 
     const promoTextStyle = {
-        color: '#000000', // Definindo a cor do texto como preto
-        fontSize: '1.5em', // Ajustando o tamanho da fonte
-        fontWeight: 'bold', // Tornando o texto em negrito
-        fontFamily: 'Arial, sans-serif', // Definindo uma fonte para o botão
-        textDecoration: 'none', // Removendo decoração do link
-        cursor: 'pointer', // Alterando o cursor para indicar que é clicável
+        color: '#000000',
+        fontSize: '1.2em',
+        fontWeight: 'bold',
+        fontFamily: 'Arial, sans-serif',
+        textDecoration: 'none',
+        cursor: 'pointer',
     };
 
     return (
