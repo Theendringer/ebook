@@ -11,7 +11,7 @@ function TermosDeUso() {
     };
 
     const paragraphStyle = {
-        fontSize: '1em', // Reduzindo o tamanho da fonte para melhor legibilidade em dispositivos menores
+        fontSize: '0.8em', // Reduzindo o tamanho da fonte para melhor legibilidade em dispositivos menores
         lineHeight: '1.5', // Aumentando o espaçamento entre linhas para melhor legibilidade
     };
 

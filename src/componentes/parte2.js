@@ -13,13 +13,14 @@ function Parte2() {
 
     const imagesContainerStyle = {
         display: 'flex',
-        flexDirection: 'column', // Alterando a direção do flex para coluna em telas pequenas
-        alignItems: 'center', // Centralizando as imagens horizontalmente
+        justifyContent: 'center', // Centralizando as imagens horizontalmente
+        flexWrap: 'wrap', // Permitindo que as imagens quebrem para uma nova linha se não couberem na largura do contêiner
     };
 
     const imageStyle = {
         margin: '10px',
-        maxWidth: '100%', // Adicionando largura máxima para garantir responsividade das imagens
+        maxWidth: 'calc(50% - 20px)', // Definindo a largura máxima de cada imagem para 50% do contêiner com margens
+        height: 'auto', // Permitindo que a altura seja ajustada automaticamente
     };
 
     const textStyle = {

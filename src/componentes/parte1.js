@@ -8,6 +8,7 @@ function Parte1() {
         padding: '20px',
         margin: '0 auto',
         fontFamily: 'Arial, sans-serif',
+        overflow: 'hidden', // Adicionando overflow para eliminar bordas laterais
     };
 
     const innerDivStyle = {
@@ -41,7 +42,7 @@ function Parte1() {
         padding: '20px',
         borderRadius: '10px',
         boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-        maxWidth: '400px',
+        maxWidth: '80%', // Reduzindo a largura máxima do cartão para 80% da tela
         width: '90%',
         margin: '20px auto',
     };
@@ -71,7 +72,7 @@ function Parte1() {
                 sem cobranças mensais. Com ele, você poderá desenvolver um produto digital capaz de gerar seus primeiros dez mil 
                 reais rapidamente, seja para construir sua autoridade online ou vender de forma discreta.</p>
             </div>
-            <div style={cardStyle}>
+            <div style={{ ...cardStyle }}>
                 <h2 style={{ ...titleStyle, fontFamily: 'Georgia, serif' }}>Promoção</h2>
                 <p style={subtitlePromoStyle}>Valor: <span style={promoTextStyle}>R$89,99</span> <span style={{ textDecoration: 'line-through' }}>R$159,99</span></p>
                 <div style={promoStyle}>

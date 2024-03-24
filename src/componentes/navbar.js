@@ -4,13 +4,13 @@ function Navbar() {
   const navbarStyle = {
     backgroundColor: '#00FF00',
     color: '#000000',
-    padding: '10px', // Adicionando algum espaçamento interno para melhorar a aparência
+    padding: '2vh', // Alterando o espaçamento interno para 2% da altura da viewport
     textAlign: 'center', // Alinhando o texto no centro
   };
 
   const titleStyle = {
     margin: '0', // Removendo a margem padrão do título
-    fontSize: '1.5rem', // Definindo um tamanho de fonte maior
+    fontSize: '3vh', // Definindo um tamanho de fonte como 3% da altura da viewport
   };
 
   return (

@@ -1,21 +1,31 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Definindo uma fonte genérica para todo o aplicativo */
+}
+
+.app {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #00FF00;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
 .container {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
-/* Remover borda do contêiner */
-.container::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 /* Media query para dispositivos com largura máxima de 768px (tamanho de tela de celular) */
