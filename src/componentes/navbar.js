@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <nav style={navbarStyle}>
-      <h5 style={titleStyle}>VENDA SEU PRIMEIRO EBOOK - VITÁLICIO</h5>
+      <h5 style={titleStyle}>EBOOKS PRL - VITÁLICIO</h5>
     </nav>
   );
 }

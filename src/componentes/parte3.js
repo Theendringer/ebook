@@ -73,14 +73,14 @@ function Parte3() {
     return (
         <div style={containerPart3Style}>
             <div style={innerDivStyle}>
-                <h1 style={titleStyle}>Através desse curso 100% prático, você será capaz de vender ebooks de qualidade.</h1>
+                <h1 style={titleStyle}>Através dessa aquisição, você será capaz de vender ebooks de qualidade.</h1>
                 <p style={subtitleStyle}>Explore o potencial ilimitado de ganhos ao vender ebooks e conquiste sua independência financeira.</p>
             </div>
             <div style={cardStyle}>
                 <h2 style={titleStyle}>Promoção</h2>
-                <p style={subtitlePromoStyle}>Valor: <span style={promoTextStyle}>R$89,99</span> <span style={{ textDecoration: 'line-through' }}>R$159,99</span></p>
+                <p style={subtitlePromoStyle}>Valor: <span style={promoTextStyle}>R$24,99</span> <span style={{ textDecoration: 'line-through' }}>R$89,99</span></p>
                 <div style={promoStyle}>
-                    <a href="https://pay.kirvano.com/7ea9aa4b-f8e2-4498-bec4-1de34b802f3d" style={buttonStyle}>Comprar Agora!</a>
+                    <a href="https://pay.kirvano.com/be36c5ed-30e8-4030-94c7-1234fcb0079f" style={buttonStyle}>Comprar Agora!</a>
                 </div>
             </div>
         </div>
