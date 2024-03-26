@@ -74,7 +74,7 @@ function Parte1() {
             </div>
             <div style={{ ...cardStyle }}>
                 <h2 style={{ ...titleStyle, fontFamily: 'Georgia, serif' }}>Promoção</h2>
-                <p style={subtitlePromoStyle}>Valor: <span style={promoTextStyle}>R$24,99</span> <span style={{ textDecoration: 'line-through' }}>R$89,99</span></p>
+                <p style={subtitlePromoStyle}>Valor: <span style={promoTextStyle}>R$18,99</span> <span style={{ textDecoration: 'line-through' }}>R$89,99</span></p>
                 <div style={promoStyle}>
                     <a href="https://pay.kirvano.com/be36c5ed-30e8-4030-94c7-1234fcb0079f" style={promoTextStyle}>Compre hoje e tenha acesso vitálicio</a>
                 </div>
