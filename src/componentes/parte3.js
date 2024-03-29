@@ -78,7 +78,7 @@ function Parte3() {
             </div>
             <div style={cardStyle}>
                 <h2 style={titleStyle}>Promoção</h2>
-                <p style={subtitlePromoStyle}>Valor: <span style={promoTextStyle}>R$18,99</span> <span style={{ textDecoration: 'line-through' }}>R$89,99</span></p>
+                <p style={subtitlePromoStyle}>Valor: <span style={promoTextStyle}>R$12,99</span> <span style={{ textDecoration: 'line-through' }}>R$79,99</span></p>
                 <div style={promoStyle}>
                     <a href="https://pay.kirvano.com/8f3e8f2f-515f-428d-afc6-7e1e5e8a7e61" style={buttonStyle}>Comprar Agora!</a>
                 </div>
